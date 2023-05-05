@@ -18,27 +18,27 @@ struct HomePageView: View {
     init() {
         UITabBar.appearance().backgroundColor = UIColor.white
         UITabBar.appearance().isTranslucent = false
-        UITabBar.appearance().unselectedItemTintColor = UIColor.black
+        UITabBar.appearance().unselectedItemTintColor = UIColor(hue: 0.0222, saturation: 1, brightness: 0.81, alpha: 1.0)
         }
   
 
     var body: some View {
       
             TabView{
-                ServicesView(account: viewModel.getAccount(username: username,  viewContext: viewContext),viewModel: DataLoader()).tabItem(){
-                    Image(systemName: "eurosign.circle")
-                    Text("Servizi")
-                }
                 MapView().tabItem(){
                     Image(systemName: "globe.europe.africa")
                     Text("Mappa")
                 }
-                ProfileView(user: viewModel.getUser(username: username, password: password,  viewContext: viewContext), viewModel: viewModel).tabItem(){
-                    Image(systemName: "person.circle")
-                    Text("Profilo")
+                BuildingsView().tabItem(){
+                    Image(systemName: "building.2.crop.circle")
+                    Text("Edifici")
+                }
+                LegendView().tabItem(){
+                    Image(systemName: "book.circle")
+                    Text("Legenda")
                 }
             }
-                .accentColor(Color("BottomBar"))
+            .accentColor(Color.black)
                 .navigationTitle("AlmaMap").navigationBarBackButtonHidden(true).navigationBarTitleDisplayMode(.inline)
         
     }

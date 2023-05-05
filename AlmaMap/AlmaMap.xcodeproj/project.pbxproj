@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAC539722A052055004C5FAE /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539712A052055004C5FAE /* LegendView.swift */; };
+		FAC539742A0520F3004C5FAE /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539732A0520F3004C5FAE /* BuildingsView.swift */; };
 		FAE79DC72A03D7CF001055D4 /* AlmaMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE79DC62A03D7CF001055D4 /* AlmaMapApp.swift */; };
 		FAE79DC92A03D7CF001055D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE79DC82A03D7CF001055D4 /* ContentView.swift */; };
 		FAE79DCB2A03D7D2001055D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE79DCA2A03D7D2001055D4 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAC539712A052055004C5FAE /* LegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
+		FAC539732A0520F3004C5FAE /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 		FAE79DC32A03D7CF001055D4 /* AlmaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlmaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE79DC62A03D7CF001055D4 /* AlmaMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmaMapApp.swift; sourceTree = "<group>"; };
 		FAE79DC82A03D7CF001055D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,7 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				FAE79DD92A03D886001055D4 /* HomePageView.swift */,
+				FAC539712A052055004C5FAE /* LegendView.swift */,
 				FAE79DDC2A03D936001055D4 /* MapView.swift */,
+				FAC539732A0520F3004C5FAE /* BuildingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,9 +165,11 @@
 			files = (
 				FAE79DD02A03D7D2001055D4 /* Persistence.swift in Sources */,
 				FAE79DDD2A03D936001055D4 /* MapView.swift in Sources */,
+				FAC539742A0520F3004C5FAE /* BuildingsView.swift in Sources */,
 				FAE79DD32A03D7D2001055D4 /* AlmaMap.xcdatamodeld in Sources */,
 				FAE79DC92A03D7CF001055D4 /* ContentView.swift in Sources */,
 				FAE79DC72A03D7CF001055D4 /* AlmaMapApp.swift in Sources */,
+				FAC539722A052055004C5FAE /* LegendView.swift in Sources */,
 				FAE79DDA2A03D886001055D4 /* HomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
