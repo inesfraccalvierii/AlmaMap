@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "code": "classrooms",
+    "name": "Aule",
+    "nameEng": "Classrooms",
+    "priority": 20
+  },
+  {
+    "id": 2,
+    "code": "labs",
+    "name": "Laboratori",
+    "nameEng": "Laboratories",
+    "priority": 30
+  },
+  {
+    "id": 3,
+    "code": "studies",
+    "name": "Studi",
+    "nameEng": "Studies",
+    "priority": 40
+  },
+  {
+    "id": 4,
+    "code": "toilette",
+    "name": "Bagni",
+    "nameEng": "Toilette",
+    "priority": 50
+  },
+  {
+    "id": 5,
+    "code": "services",
+    "name": "Servizi",
+    "nameEng": "Services",
+    "priority": 60
+  },
+  {
+    "id": 6,
+    "code": "stairs",
+    "name": "Scale",
+    "nameEng": "Stairs",
+    "priority": 70
+  },
+  {
+    "id": 7,
+    "code": "elevators",
+    "name": "Ascensori",
+    "nameEng": "Elevators",
+    "priority": 80
+  },
+  {
+    "id": 8,
+    "code": "exits",
+    "name": "Uscite",
+    "nameEng": "Exits",
+    "priority": 90
+  },
+  {
+    "id": 9,
+    "code": "kiosks",
+    "name": "ALMAmap",
+    "nameEng": "ALMAmap",
+    "priority":  65
+  },
+  {
+    "id": 10,
+    "code": "buildings",
+    "name": "Edifici",
+    "nameEng": "Buildings",
+    "priority": 15
+  },
+  {
+    "id": 11,
+    "code": "position",
+    "name": "VOI SIETE QUI",
+    "nameEng": "You are here",
+    "priority": 5
+  }
+]

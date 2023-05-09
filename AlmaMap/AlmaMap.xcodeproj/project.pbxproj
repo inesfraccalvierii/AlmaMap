@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		FAC539722A052055004C5FAE /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539712A052055004C5FAE /* LegendView.swift */; };
 		FAC539742A0520F3004C5FAE /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539732A0520F3004C5FAE /* BuildingsView.swift */; };
+		FAC539762A058AF3004C5FAE /* LegendEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539752A058AF3004C5FAE /* LegendEntity.swift */; };
+		FAC539782A058B0E004C5FAE /* Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539772A058B0E004C5FAE /* Legend.swift */; };
+		FAC5397C2A058C61004C5FAE /* Modeldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5397B2A058C61004C5FAE /* Modeldata.swift */; };
+		FAC5397E2A058D36004C5FAE /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5397D2A058D36004C5FAE /* DataLoader.swift */; };
+		FAC539852A0593CF004C5FAE /* LegendRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539842A0593CF004C5FAE /* LegendRowView.swift */; };
+		FAC539892A0982F6004C5FAE /* legend.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC539862A0982F6004C5FAE /* legend.json */; };
+		FAC5398A2A0982F6004C5FAE /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC539872A0982F6004C5FAE /* buildings.json */; };
+		FAC5398B2A0982F6004C5FAE /* floors.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC539882A0982F6004C5FAE /* floors.json */; };
+		FAC5398D2A0984E5004C5FAE /* BuildingEnitity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5398C2A0984E5004C5FAE /* BuildingEnitity.swift */; };
+		FAC5398F2A09852D004C5FAE /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5398E2A09852D004C5FAE /* Building.swift */; };
+		FAC539912A0987EC004C5FAE /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539902A0987EC004C5FAE /* Floor.swift */; };
+		FAC539942A0988B4004C5FAE /* FloorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC539932A0988B4004C5FAE /* FloorEntity.swift */; };
 		FAE79DC72A03D7CF001055D4 /* AlmaMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE79DC62A03D7CF001055D4 /* AlmaMapApp.swift */; };
 		FAE79DC92A03D7CF001055D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE79DC82A03D7CF001055D4 /* ContentView.swift */; };
 		FAE79DCB2A03D7D2001055D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE79DCA2A03D7D2001055D4 /* Assets.xcassets */; };
@@ -22,6 +34,18 @@
 /* Begin PBXFileReference section */
 		FAC539712A052055004C5FAE /* LegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
 		FAC539732A0520F3004C5FAE /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
+		FAC539752A058AF3004C5FAE /* LegendEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendEntity.swift; sourceTree = "<group>"; };
+		FAC539772A058B0E004C5FAE /* Legend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legend.swift; sourceTree = "<group>"; };
+		FAC5397B2A058C61004C5FAE /* Modeldata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modeldata.swift; sourceTree = "<group>"; };
+		FAC5397D2A058D36004C5FAE /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		FAC539842A0593CF004C5FAE /* LegendRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendRowView.swift; sourceTree = "<group>"; };
+		FAC539862A0982F6004C5FAE /* legend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = legend.json; sourceTree = "<group>"; };
+		FAC539872A0982F6004C5FAE /* buildings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
+		FAC539882A0982F6004C5FAE /* floors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = floors.json; sourceTree = "<group>"; };
+		FAC5398C2A0984E5004C5FAE /* BuildingEnitity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingEnitity.swift; sourceTree = "<group>"; };
+		FAC5398E2A09852D004C5FAE /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		FAC539902A0987EC004C5FAE /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		FAC539932A0988B4004C5FAE /* FloorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorEntity.swift; sourceTree = "<group>"; };
 		FAE79DC32A03D7CF001055D4 /* AlmaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlmaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE79DC62A03D7CF001055D4 /* AlmaMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmaMapApp.swift; sourceTree = "<group>"; };
 		FAE79DC82A03D7CF001055D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAC5397F2A058E90004C5FAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAC539872A0982F6004C5FAE /* buildings.json */,
+				FAC539882A0982F6004C5FAE /* floors.json */,
+				FAC539862A0982F6004C5FAE /* legend.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAC539952A09892F004C5FAE /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+				FAC539752A058AF3004C5FAE /* LegendEntity.swift */,
+				FAC539932A0988B4004C5FAE /* FloorEntity.swift */,
+				FAC5398C2A0984E5004C5FAE /* BuildingEnitity.swift */,
+			);
+			path = Entitys;
+			sourceTree = "<group>";
+		};
 		FAE79DBA2A03D7CF001055D4 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +107,18 @@
 		FAE79DC52A03D7CF001055D4 /* AlmaMap */ = {
 			isa = PBXGroup;
 			children = (
+				FAC539952A09892F004C5FAE /* Entitys */,
+				FAC5397F2A058E90004C5FAE /* Resources */,
 				FAE79DDB2A03D8DD001055D4 /* Views */,
 				FAE79DC62A03D7CF001055D4 /* AlmaMapApp.swift */,
+				FAC5397B2A058C61004C5FAE /* Modeldata.swift */,
+				FAC539772A058B0E004C5FAE /* Legend.swift */,
+				FAC5398E2A09852D004C5FAE /* Building.swift */,
+				FAC539902A0987EC004C5FAE /* Floor.swift */,
 				FAE79DC82A03D7CF001055D4 /* ContentView.swift */,
-				FAE79DCA2A03D7D2001055D4 /* Assets.xcassets */,
 				FAE79DCF2A03D7D2001055D4 /* Persistence.swift */,
+				FAC5397D2A058D36004C5FAE /* DataLoader.swift */,
+				FAE79DCA2A03D7D2001055D4 /* Assets.xcassets */,
 				FAE79DD12A03D7D2001055D4 /* AlmaMap.xcdatamodeld */,
 				FAE79DCC2A03D7D2001055D4 /* Preview Content */,
 			);
@@ -89,6 +140,7 @@
 				FAC539712A052055004C5FAE /* LegendView.swift */,
 				FAE79DDC2A03D936001055D4 /* MapView.swift */,
 				FAC539732A0520F3004C5FAE /* BuildingsView.swift */,
+				FAC539842A0593CF004C5FAE /* LegendRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +205,9 @@
 			files = (
 				FAE79DCE2A03D7D2001055D4 /* Preview Assets.xcassets in Resources */,
 				FAE79DCB2A03D7D2001055D4 /* Assets.xcassets in Resources */,
+				FAC539892A0982F6004C5FAE /* legend.json in Resources */,
+				FAC5398A2A0982F6004C5FAE /* buildings.json in Resources */,
+				FAC5398B2A0982F6004C5FAE /* floors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,11 +218,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC539942A0988B4004C5FAE /* FloorEntity.swift in Sources */,
 				FAE79DD02A03D7D2001055D4 /* Persistence.swift in Sources */,
 				FAE79DDD2A03D936001055D4 /* MapView.swift in Sources */,
+				FAC5397C2A058C61004C5FAE /* Modeldata.swift in Sources */,
 				FAC539742A0520F3004C5FAE /* BuildingsView.swift in Sources */,
+				FAC539762A058AF3004C5FAE /* LegendEntity.swift in Sources */,
+				FAC539852A0593CF004C5FAE /* LegendRowView.swift in Sources */,
 				FAE79DD32A03D7D2001055D4 /* AlmaMap.xcdatamodeld in Sources */,
+				FAC5398F2A09852D004C5FAE /* Building.swift in Sources */,
+				FAC539912A0987EC004C5FAE /* Floor.swift in Sources */,
 				FAE79DC92A03D7CF001055D4 /* ContentView.swift in Sources */,
+				FAC539782A058B0E004C5FAE /* Legend.swift in Sources */,
+				FAC5397E2A058D36004C5FAE /* DataLoader.swift in Sources */,
+				FAC5398D2A0984E5004C5FAE /* BuildingEnitity.swift in Sources */,
 				FAE79DC72A03D7CF001055D4 /* AlmaMapApp.swift in Sources */,
 				FAC539722A052055004C5FAE /* LegendView.swift in Sources */,
 				FAE79DDA2A03D886001055D4 /* HomePageView.swift in Sources */,

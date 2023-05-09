@@ -13,8 +13,9 @@ struct AlmaMapApp: App {
 
     var body: some Scene {
         WindowGroup {
-            HomePageView()
+            HomePageView(viewModel: DataLoader())
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+

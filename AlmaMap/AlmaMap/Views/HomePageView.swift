@@ -13,9 +13,10 @@ import SwiftUI
 
 struct HomePageView: View {
     
-    
-    
-    init() {
+    @ObservedObject var viewModel: DataLoader
+    @Environment(\.managedObjectContext) private var viewContext
+    init(viewModel: DataLoader) {
+        self.viewModel = viewModel
         UITabBar.appearance().backgroundColor = UIColor.white
         UITabBar.appearance().isTranslucent = false
         UITabBar.appearance().unselectedItemTintColor = UIColor(hue: 0.0222, saturation: 1, brightness: 0.81, alpha: 1.0)
@@ -33,7 +34,7 @@ struct HomePageView: View {
                     Image(systemName: "building.2.crop.circle")
                     Text("Edifici")
                 }
-                LegendView().tabItem(){
+                LegendView(viewModel: viewModel, legend: viewModel.legend.first!).tabItem(){
                     Image(systemName: "book.circle")
                     Text("Legenda")
                 }
@@ -46,7 +47,7 @@ struct HomePageView: View {
 
 struct HomePageView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePageView()
+        HomePageView(viewModel: DataLoader())
     }
 }
 
