@@ -2,91 +2,91 @@
   {
     "id" : 7,
     "number": 0,
-    "svg": "/res/floors/Ue4_0.svg",
+    "svg": "/Resources/img/Ue4_0.svg",
     "buildingId": 4
   },
   {
     "id" : 8,
     "number": 1,
-    "svg": "/res/floors/Ue4_1.svg",
+    "svg": "/Resources/img/Ue4_1.svg",
     "buildingId": 4
   },
   {
     "id" : 9,
     "number": 2,
-    "svg": "/res/floors/Ue4_2.svg",
+    "svg": "/Resources/img/Ue4_2.svg",
     "buildingId": 4
   },
   {
     "id" : 10,
     "number": 3,
-    "svg": "/res/floors/Ue4_3.svg",
+    "svg": "/Resources/img/Ue4_3.svg",
     "buildingId": 4
   },
   {
     "id" : 11,
     "number": 4,
-    "svg": "/res/floors/Ue4_4.svg",
+    "svg": "/Resources/img/Ue4_4.svg",
     "buildingId": 4
   },
   {
     "id" : 12,
     "number": 5,
-    "svg": "/res/floors/Ue4_5.svg",
+    "svg": "/Resources/img/Ue4_5.svg",
     "buildingId": 4
   },
   {
     "id" : 13,
     "number": -1,
-    "svg": "/res/floors/Ue5_-1.svg",
+    "svg": "/Resources/img/Ue5_-1.svg",
     "buildingId": 5
   },
   {
     "id" : 14,
     "number": 0,
-    "svg": "/res/floors/Ue5_0.svg",
+    "svg": "/Resources/img/Ue5_0.svg",
     "buildingId": 5
   },
   {
     "id" : 15,
     "number": 1,
-    "svg": "/res/floors/Ue5_1.svg",
+    "svg": "/Resources/img/Ue5_1.svg",
     "buildingId": 5
   },
   {
     "id" : 16,
     "number": 2,
-    "svg": "/res/floors/Ue5_2.svg",
+    "svg": "/Resources/img/Ue5_2.svg",
     "buildingId": 5
   },
   {
     "id" : 17,
     "number": 3,
-    "svg": "/res/floors/Ue5_3.svg",
+    "svg": "/Resources/img/Ue5_3.svg",
     "buildingId": 5
   },
   {
     "id" : 18,
     "number": 4,
-    "svg": "/res/floors/Ue5_4.svg",
+    "svg": "/Resources/img/Ue5_4.svg",
     "buildingId": 5
   },
   {
     "id" : 19,
     "number": 5,
-    "svg": "/res/floors/Ue5_5.svg",
+    "svg": "/Resources/img/Ue5_5.svg",
     "buildingId": 5
   },
   {
     "id" : 20,
     "number": 6,
-    "svg": "/res/floors/Ue5_6.svg",
+    "svg": "/Resources/img/Ue5_6.svg",
     "buildingId": 5
   },
   {
     "id" : 21,
     "number": 7,
-    "svg": "/res/floors/Ue5_7.svg",
+    "svg": "/Resources/img/Ue5_7.svg",
     "buildingId": 5
   }
 ]

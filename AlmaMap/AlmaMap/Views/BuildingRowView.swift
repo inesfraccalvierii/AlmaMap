@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct BuildingRowView: View {
+    
+    var building: Building
+    @ObservedObject var viewModel: DataLoader
+    var body: some View {
+        HStack {
+            Text(building.name)
+        }
+    }
+}
+

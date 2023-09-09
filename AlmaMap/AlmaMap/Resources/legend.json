@@ -54,26 +54,5 @@
     "name": "Uscite",
     "nameEng": "Exits",
     "priority": 90
-  },
-  {
-    "id": 9,
-    "code": "kiosks",
-    "name": "ALMAmap",
-    "nameEng": "ALMAmap",
-    "priority":  65
-  },
-  {
-    "id": 10,
-    "code": "buildings",
-    "name": "Edifici",
-    "nameEng": "Buildings",
-    "priority": 15
-  },
-  {
-    "id": 11,
-    "code": "position",
-    "name": "VOI SIETE QUI",
-    "nameEng": "You are here",
-    "priority": 5
   }
 ]

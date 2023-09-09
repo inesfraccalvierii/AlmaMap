@@ -30,7 +30,7 @@ struct HomePageView: View {
                     Image(systemName: "globe.europe.africa")
                     Text("Mappa")
                 }
-                BuildingsView().tabItem(){
+                BuildingsView(viewModel: viewModel, building: viewModel.building.first!).tabItem(){
                     Image(systemName: "building.2.crop.circle")
                     Text("Edifici")
                 }

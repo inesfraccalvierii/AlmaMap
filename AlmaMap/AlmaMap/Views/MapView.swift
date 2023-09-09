@@ -9,16 +9,26 @@ import Foundation
 import SwiftUI
 
 
-
 struct MapView: View {
     
 
   
     var body: some View {
+            
+            //Text("mappa")
+           
         VStack{
-            Text("Mappa")
+            Image("Campus")
+            HStack{
+                
+                Button {
+                        
+                    } label: {
+                        Image(systemName: "arrow.up")
+                    }
+            }
         }
-       
+        
         }
     }
        

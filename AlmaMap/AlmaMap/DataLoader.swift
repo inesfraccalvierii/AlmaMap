@@ -19,10 +19,11 @@ class DataLoader: ObservableObject {
     }
     
     var isLoading = true
-    
+   
+
     @Published var model2 = Modeldata<Building>(fileName: "buildings.json")
     
-    var buildind: [Building] {
+    var building: [Building] {
         model2.list
     }
     

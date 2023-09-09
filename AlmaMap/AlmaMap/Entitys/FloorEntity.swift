@@ -19,7 +19,7 @@ extension FloorEntity {
     }
     
     func convertToUser() -> Floor {
-        Floor(id: Int32(self.id), number: self.number, svg: self.svg!, buildingId: self.buildingId)
+        Floor(id: Int32(self.id), number: Int32(self.number), svg: self.svg!, buildingId: Int32(self.buildingId))
     }
     
 }

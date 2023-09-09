@@ -17,12 +17,12 @@ struct LegendView: View {
     @Environment(\.managedObjectContext) private var viewContext
     
     @FetchRequest(sortDescriptors:  [], predicate: nil, animation: .default)
-    private var ServicesCoreData: FetchedResults<LegendEntity>
+    private var LegendCoreData: FetchedResults<LegendEntity>
     @State  var legend: Legend
     
     var legends: [Legend] {
         var list = viewModel.legend
-        for legend in ServicesCoreData {
+        for legend in LegendCoreData {
             list.append(legend.convertToUser())
         }
         return list
@@ -37,21 +37,6 @@ struct LegendView: View {
         }
        
 
-        }
-        /*NavigationView{
-            List(services) { service in
-                NavigationLink(destination: ServiceLoadView(service: service, viewModel: viewModel)) {
-                    ServiceRowView(service: service, viewModel: viewModel)
-                }
-                
-            }
-        }
-       
     }
-    struct ServicesView_Previews: PreviewProvider {
-        static var previews: some View {
-            ServicesView()
-            
-        }*/
-    
 }
+
